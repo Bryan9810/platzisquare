@@ -9,21 +9,13 @@ export class AppComponent {
   title = 'Platzi Square';
 
   lugares:any = [
-    {active: true, nombre:'Panaderia Bendito el pan'},
-    {active: true, nombre:'Restaurante la terraza del gordo'},
-    {active: true, nombre:'Armando Chicharron'},
-    {active: false, nombre:'Bendito el pan'},
-    {active: true, nombre:'la terraza del gordo'},
-    {active: true, nombre:'Armando Chicharron'}
-  ];
-
-  personas:any = [
-      {nombre:'Juan Perez',edad: 18},
-      {nombre:'Carlos Gonzalez',edad: 23},
-      {nombre:'Marcos Lugo',edad: 38},
-      {nombre:'Alvaro Gomez',edad: 13},
-      {nombre:'Maria Lopez',edad: 18}
-    ]
+    {plan:'pagado', cercania: 1, distancia: 1, active: true, nombre:'Panaderia Bendito el pan'},
+    {plan:'gratuito', cercania: 1, distancia: 10.8, active: true, nombre:'Restaurante la terraza del gordo'},
+    {plan:'gratuito', cercania: 2, distancia: 5, active: true, nombre:'Armando Chicharron'},
+    {plan:'gratuito', cercania: 3, distancia: 10, active: false, nombre:'Bendito el pan'},
+    {plan:'pagado', cercania: 3, distancia: 35, active: true, nombre:'la terraza del gordo'},
+    {plan:'gratuito', cercania: 3, distancia: 120, active: false, nombre:'Armando Chicharron'}
+  ]
 
   lat: number = 4.6972091;
   lng: number = -74.0367337;

@@ -4,3 +4,8 @@ agm-map {
   width: auto;
   max-width: 1000px;
 }
+
+.numero_par{
+  background-color: aliceblue;
+  color: blue;
+}
